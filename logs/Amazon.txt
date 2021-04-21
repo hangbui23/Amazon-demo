@@ -1,0 +1,6 @@
+[INFO ] [2021-04-21 10:04:32,162] Open Amazon page
+[INFO ] [2021-04-21 10:04:41,599] Open Books department
+[INFO ] [2021-04-21 10:04:42,195] Input apple value to search text box
+[INFO ] [2021-04-21 10:04:42,663] Click on Search button
+[INFO ] [2021-04-21 10:04:47,130] Click on English Language and verify Englist checkbox checked
+[INFO ] [2021-04-21 10:04:51,087] Sort by Publication Date

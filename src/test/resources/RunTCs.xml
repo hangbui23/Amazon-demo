@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Amazon" parallel="false">
+	<listeners>
+		<listener class-name="common.MethodListener" />
+		<listener class-name="reportConfigs.ExtendReportListenerVersion4" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Run On Chrome">
+		<parameter name="browser" value="chrome_ui"></parameter>
+		<classes>
+			<!-- <class name="com.amazon.login.TC01_InvalidLogin" />
+			<class name="com.amazon.login.TC02_ValidLogin" /> -->
+			<!-- <class name="com.amazon.search.TC01_Search" /> -->
+			<class name="com.amazon.sort.TC01_Sort" />
+		</classes>
+	</test>
+	Test
+
+</suite> <!-- Suite -->

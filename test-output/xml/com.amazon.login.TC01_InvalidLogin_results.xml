@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On Chrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.129">
+  <properties />
+  
+  
+            <testcase name="TC02_InvalidPassword" time="4.032" classname="com.amazon.login.TC01_InvalidLogin" />
+                <testcase name="TC01_InvalidEmail" time="2.097" classname="com.amazon.login.TC01_InvalidLogin" />
+      
+</testsuite>
