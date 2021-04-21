@@ -39,11 +39,7 @@ public class SearchPageObject extends BasePage{
 	
 	public void SortItemsBy(String value) {
 		waitForElementVisible(driver, SearchPageUI.CBB_SORTBY_PARENT);
-		clickToElement(driver, SearchPageUI.CBB_SORTBY_PARENT);
-		sleepInSecond(1);
-		PageGeneratorManager.getSearchPage(driver);
-		clickToElement(driver, SearchPageUI.CBB_SORTBY_CHILD, value);
-		sleepInSecond(1);
+		selectItemInCustomDropdown(driver, SearchPageUI.CBB_SORTBY_PARENT, SearchPageUI.CBB_SORTBY_CHILD, value);
 	}
 	
 	public boolean isDateSortDesc() {

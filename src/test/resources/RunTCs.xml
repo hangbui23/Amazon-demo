@@ -6,15 +6,26 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
+	
 	<test name="Run On Chrome">
 		<parameter name="browser" value="chrome_ui"></parameter>
 		<classes>
-			<!-- <class name="com.amazon.login.TC01_InvalidLogin" />
-			<class name="com.amazon.login.TC02_ValidLogin" /> -->
-			<!-- <class name="com.amazon.search.TC01_Search" /> -->
+			<class name="com.amazon.login.TC01_InvalidLogin" />
+			<class name="com.amazon.login.TC02_ValidLogin" />
+			<class name="com.amazon.search.TC01_Search" />
 			<class name="com.amazon.sort.TC01_Sort" />
 		</classes>
 	</test>
+	
+	<!-- <test name="Run On FireFox">
+		<parameter name="browser" value="firefox_ui"></parameter>
+		<classes>
+			<class name="com.amazon.login.TC01_InvalidLogin" />
+			<class name="com.amazon.login.TC02_ValidLogin" />
+			<class name="com.amazon.search.TC01_Search" />
+			<class name="com.amazon.sort.TC01_Sort" />
+		</classes>
+	</test> -->
 	Test
 
 </suite> <!-- Suite -->

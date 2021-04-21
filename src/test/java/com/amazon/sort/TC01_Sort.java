@@ -34,7 +34,7 @@ public class TC01_Sort extends BaseTest {
 		log.info("Click on Search button");
 		searchPage = homePage.clickOnSearchButton();
 		
-		log.info("Click on English Language and verify Englist checkbox checked");
+		log.info("Click on English Language and verify English checkbox checked");
 		Assert.assertEquals(searchPage.clickAndVerifyLanguageCheckboxChecked("English"),"true");
 		
 		log.info("Sort by Publication Date");

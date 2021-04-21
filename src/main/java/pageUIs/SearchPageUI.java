@@ -8,6 +8,6 @@ public class SearchPageUI {
 	public static final String CHK_LANGUAGE = "//*[text()='%s']/preceding-sibling::div";
 	public static final String CHK_LANGUAGE_CHECKED = "//*[text()='%s']/preceding-sibling::div//input";
 	public static final String CBB_SORTBY_PARENT = "//span[@aria-label='Sort by:']";
-	public static final String CBB_SORTBY_CHILD = "//div[contains(@class,'vertical-scroll')]//a[text()='%s']";
+	public static final String CBB_SORTBY_CHILD = "//div[contains(@class,'a-popover-inner')]//a";
 	public static final String LBL_PUBLISHDATE= "//div[@class='a-row']/child::span[contains(@class,'text-normal')]";
 }
